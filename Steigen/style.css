@@ -1,0 +1,69 @@
+.logo_sticker {
+	position:fixed;
+	margin-left:3%;
+	margin-top:1%;
+	width:300px;
+	height:300px;
+	background-image:url("logo_sticker.png");
+	background-size:120px 120px;
+	background-repeat:no-repeat;
+
+}
+.container {
+	margin-left:5%;
+	margin-top:5%;
+	width:130%;
+	height:20%;
+	background:white;
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow:         3px 3px 5px 6px #ccc;
+  font: 18px/21px "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+}
+.headerMenu {
+	width:100px;
+	height:25px;
+	float:left;
+	margin-right:30px;
+	margin-top:25px;
+	background:white;
+	                border: 1px solid #bbb;
+                border-radius:10px;
+  -moz-box-shadow:    3px 3px 5px 3px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 3px #ccc;
+  box-shadow:         3px 3px 5px 3px #ccc;
+  font: 16px "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+  text-align:center;
+  padding-top:5px;
+}
+
+            .left_subcontainer{
+                width: 130%;
+                height: 550px;
+                float:left;
+                margin-left: 5%;
+				margin-top:3%;
+				margin-
+                border: 1px solid #bbb;
+                border-radius:10px;
+                background-color: white;
+  -moz-box-shadow:    3px 3px 5px 1px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 1px #ccc;
+  box-shadow:         3px 3px 5px 1px #ccc;
+  background-image:url("bg.jpg");
+  color:white;
+                
+            }
+			
+			.content_div {
+				margin-left:5%;
+				margin-right:5%;
+			
+			}
+			.footer {
+				position:fixed;
+				margin-left:40%;
+				margin-top:47%;
+				color:white;
+				font-weight:bold;
+			}

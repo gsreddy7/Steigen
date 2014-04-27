@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<style type="text/css">
+		.sortable {
+			width: 310px;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			user-select: none;
+			cursor: move;
+		}
+		.sortable li {
+			list-style: none;
+			color: #1C94C4;
+			margin: 20px;
+			padding: 5px;			
+		}
+		.handle {
+			cursor: move;
+		}
+		li.highlight {
+			background: #FEE25F;
+		}
+		/*li.sortable-placeholder {
+			border: 1px dashed #CCC;
+			background: none;
+		}*/
+		.sortable li:hover {
+			border: 1px dashed #CCC;	
+		}
+</style>
+<script src="jquery-1.7.1.min.js"></script>
+	<script src="jquery.sortable.js"></script>
+	<script>
+		$(function() {
+			$('#sortable1').sortable();
+		});
+	</script>
+
+<script type="text/javascript">
+
+</script>
+</head>
+<body>
+<section>
+		<h1>Sortable List</h1>
+		<ul id="sortable1" class="sortable">
+			<li><input type="text"/></li>
+			<li>Item 2
+			<li>Item 3
+			<li>Item 4
+			<li>Item 5
+			<li>Item 6
+		</ul>
+	</section>
+</body>
+</html>
